@@ -1,0 +1,57 @@
+.header {
+    max-height: 50px;
+    background-color: #D594E0;
+}
+.logo {
+    max-height: 50px;
+}
+
+
+/* hamburger menu stylization */
+.menu-button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.menu{
+    position: relative;
+    display: inline-block;
+}
+
+.menu-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(240, 219, 240);
+    min-width: 160px;
+    z-index: 1;
+}
+
+.menu-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: monospace;
+}
+
+/* WAVE DIVIDER */
+.custom-shape-divider-top-1651787140 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1651787140 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 59px;
+}
+
+.custom-shape-divider-top-1651787140 .shape-fill {
+    fill: #D594E0;
+}
