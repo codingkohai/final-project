@@ -1,38 +1,29 @@
-.header {
-    max-height: 50px;
-    background-color: #D594E0;
+
+.navbar-container{
+    height: 100px;
+    width: 100%;
+    float: left;
 }
+
 .logo {
-    max-height: 50px;
-}
-
-
-/* hamburger menu stylization */
-.menu-button{
-    background-color: rgba(255, 255, 255, 0);
+    width: 25%;
     border: none;
+    background-color: #ffffff00;
+    padding: none;
 }
 
-.menu{
-    position: relative;
-    display: inline-block;
+.logo{
+    float: left;
+    text-align: center;
 }
 
-.menu-content{
-    display: none;
-    position: absolute;
-    background-color: rgb(240, 219, 240);
-    min-width: 160px;
-    z-index: 1;
+.logo:hover {
+    background-color: #ffffff00;
+    cursor: pointer;
 }
 
-.menu-content a{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-family: monospace;
-}
+
+
 
 /* WAVE DIVIDER */
 .custom-shape-divider-top-1651787140 {
