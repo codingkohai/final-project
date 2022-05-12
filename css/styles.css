@@ -155,7 +155,7 @@ h1 {
 }
 
 
-/*  ---BUTTON--- */
+/* BUTTON */
 .button{
     font-family: houschka-rounded,sans-serif;
     font-weight: 600;
@@ -225,12 +225,10 @@ button:after{
 
 
 
-/* DIVIDER */
+/* DIVIDERS */
 .dividers{
     margin: -5px;
 }
-
-
 
 
 /* ---------PRODUCT DISPLAY HOME----------- */
@@ -304,14 +302,6 @@ button:after{
 footer{
     clear: both;
 }
-
-
-
-
-
-
-
-
 
 
 /* FOOTER */
